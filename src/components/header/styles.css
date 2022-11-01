@@ -1,0 +1,112 @@
+.menu {
+  width: 100vw;
+}
+.menu header {
+  height: 60px;
+  background-color: rgb(126, 67, 165);
+  display: flex;
+  justify-content: space-between;
+}
+.menu img {
+  width: 70px;
+  height: 60px;
+  border-radius: 110px;
+}
+.menu header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.menu header nav ul {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+.menu header nav ul li {
+  font-size: 15px;
+}
+.menu header nav ul li a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+.menu header nav ul li a:hover {
+  text-decoration: underline;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu header {
+    height: 50px;
+    background-color: rgb(126, 67, 165);
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu img {
+    width: 100px;
+  }
+
+  .menu header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu header nav ul {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .menu nav ul {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(126, 67, 165);
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .menu nav ul li {
+    display: block;
+    padding: 9px 0;
+    line-height: 30px;
+  }
+
+  .menu nav ul li a {
+    font-size: 12px;
+  }
+
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: block;
+  }
+
+  #check:checked ~ ul {
+    left: 0px;
+    z-index: 1;
+  }
+}

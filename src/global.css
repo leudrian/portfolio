@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+:root {
+  font: 60%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+body {
+  overflow-x: hidden;
+}
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Roboto, sans-serif;
+  color: #fff;
+}
+body {
+  background-image: url("./assets/back.gif");
+  background-color: #022202;
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

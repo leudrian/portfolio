@@ -1,0 +1,234 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+.home img {
+  position: absolute;
+  width: 100vw;
+  height: 260px;
+  opacity: 0.5;
+}
+.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  top: 80px;
+  color: #fff;
+}
+.info h1 {
+  font-size: 20px;
+  animation: lightSpeedInLeft;
+  animation-duration: 3s;
+}
+.info h2 {
+  font-size: 20px;
+  color: rgb(110, 58, 145);
+  animation: lightSpeedInLeft;
+  animation-duration: 3s;
+}
+.info p {
+  font-size: 15px;
+  animation: lightSpeedInLeft;
+  animation-duration: 3s;
+}
+.icons {
+  padding: 7px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: lightSpeedInLeft;
+  animation-duration: 3s;
+}
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 200px;
+  color: #fff;
+  animation: lightSpeedInLeft;
+  animation-duration: 3s;
+}
+.content h2 {
+  padding: 15px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.content p {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  text-align: justify;
+  font-size: 15px;
+  text-indent: 25px;
+}
+.content button {
+  background: rgb(110, 58, 145);
+  width: 110px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.content button:hover {
+  animation: pulse;
+  animation-duration: 2s;
+  background: rgb(231, 227, 227);
+}
+@media (min-width: 480px) {
+  .home {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-bottom: 170px;
+  }
+  .home img {
+    position: absolute;
+    width: 100vw;
+    height: 260px;
+    opacity: 0.5;
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    top: 80px;
+    color: #fff;
+  }
+  .info h1 {
+    font-size: 20px;
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .info h2 {
+    font-size: 20px;
+    color: rgb(110, 58, 145);
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .info p {
+    font-size: 15px;
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .icons {
+    padding: 7px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    color: #fff;
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .content h2 {
+    padding: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  .content p {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    text-align: justify;
+    font-size: 15px;
+    text-indent: 25px;
+  }
+  .content button {
+    background: rgb(110, 58, 145);
+    width: 110px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .content button:hover {
+    animation: pulse;
+    animation-duration: 2s;
+    background: rgb(231, 227, 227);
+  }
+}
+@media (min-width: 700px) {
+  .home {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0px;
+  }
+  .home img {
+    position: absolute;
+    width: 100vw;
+    height: 350px;
+    opacity: 0.5;
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    top: 90px;
+    color: #fff;
+  }
+  .info h1 {
+    font-size: 30px;
+  }
+  .info h2 {
+    font-size: 30px;
+    color: rgb(184, 89, 248);
+  }
+  .info p {
+    font-size: 25px;
+  }
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    color: #fff;
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
+  }
+  .content h2 {
+    padding: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+  }
+  .content p {
+    width: 70vw;
+    font-size: 17px;
+    text-indent: 40px;
+  }
+  .content button {
+    width: 250px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+  }
+}
