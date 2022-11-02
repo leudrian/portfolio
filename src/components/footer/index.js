@@ -5,7 +5,7 @@ import "./styles.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <footer>Emanuel fonseca</footer>
+      <footer>Emanuel Fonseca</footer>
     </div>
   );
 };
